@@ -51,6 +51,10 @@ namespace CarLotSimulator
 
             chevy.MakeEngineNoise();
             chevy.MakeHonkNoise();
+
+            //Counting cars
+            Console.WriteLine($"\nNumber of cars created: {CarLot.numberOfCars}\n");
+
             //*************BONUS*************//
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car

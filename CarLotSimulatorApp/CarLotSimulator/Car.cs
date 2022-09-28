@@ -8,7 +8,8 @@ namespace CarLotSimulator
     {
         public Car()
         {
-
+            CarLot.numberOfCars++;
+            //Class name.Static member
         }
         public Car(string makeInput, string modelInput, int year, string engineNoise, string honkNoise, bool isDriveable)
         {
